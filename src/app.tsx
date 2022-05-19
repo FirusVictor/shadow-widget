@@ -12,7 +12,13 @@ class App extends Component<Props> {
   render() {
     return (
       <div>
-        React App
+
+        <button>Fetch data</button>
+
+        <div className="block">
+          React App
+        </div>
+
       </div>
     );
   }
